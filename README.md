@@ -106,8 +106,6 @@ const developer = {
   <img src="https://raw.githubusercontent.com/quanna04-dev/quanna04-dev/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </div>
 
-> **Để bật hiệu ứng rắn:** Tạo file `.github/workflows/snake.yml` trong repo profile của bạn (xem hướng dẫn bên dưới)
-
 ---
 
 ## Dự Án Nổi Bật / Featured Projects
@@ -166,36 +164,3 @@ const developer = {
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" />
 
 ---
-
-<details>
-<summary> Hướng dẫn cài đặt hiệu ứng rắn (Snake Animation)</summary>
-
-Tạo file `.github/workflows/snake.yml` trong repo profile của bạn:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-</details>
