@@ -22,16 +22,16 @@
 
 ```typescript
 const developer = {
-  name:     "Họ Tên Của Bạn",        // ← Thay tên của bạn
+  name:     "Nguyễn Anh Quân",        // ← Thay tên của bạn
   location: "Hà Nội, Việt Nam 🇻🇳",
   role:     "Full-Stack Developer",
-  company:  "Công ty của bạn",        // ← Thay tên công ty
-  education:"Trường Đại học của bạn", // ← Thay trường học
+  company:  "none",        // ← Thay tên công ty
+  education:"Trường Đại học FPT - FPT university", // ← Thay trường học
 
-  languages:  ["TypeScript", "Python", "Go"],
-  frameworks: ["React", "Next.js", "Node.js", "FastAPI"],
-  databases:  ["PostgreSQL", "MongoDB", "Redis"],
-  cloud:      ["AWS", "Docker", "Kubernetes"],
+  languages:  ["Java Script", "Java", "Go"],
+  frameworks: ["React", "SpringBoot", "Node.js", "FastAPI"],
+  databases:  ["PostgreSQL", "MySQL", "SQLServer"],
+  cloud:      ["AWS", "Cloudflare", "CLoudinary"],
 
   currentlyLearning: "AI/ML & System Design",
   lookingFor:        "Cơ hội thú vị & đội nhóm tuyệt vời",
@@ -48,7 +48,6 @@ const developer = {
 
 ### Languages
 <img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" title="TypeScript"/>&nbsp;
-<img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" title="Python"/>&nbsp;
 <img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" title="JavaScript"/>&nbsp;
 <img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" title="Go"/>&nbsp;
 <img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" title="Java"/>
@@ -72,7 +71,6 @@ const developer = {
 ### Cloud & DevOps & Tools
 <img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" title="AWS"/>&nbsp;
 <img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" title="Docker"/>&nbsp;
-<img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg" title="Kubernetes"/>&nbsp;
 <img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" title="Git"/>&nbsp;
 <img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" title="GitHub"/>&nbsp;
 <img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" title="VS Code"/>
